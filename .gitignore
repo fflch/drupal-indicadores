@@ -1,0 +1,17 @@
+/vendor/
+/drush/
+/config/
+/console/
+/web/
+*~
+*.swp
+.gitattributes
+.editorconfig
+
+
+!/web/
+/web/*
+!/web/profiles/
+
+web/profiles/README.txt
+
