@@ -1,14 +1,14 @@
-1) Versão do php:
+Versão do php:
 
     sudo update-alternatives --set php /usr/bin/php8.2
     sudo update-alternatives --set phar /usr/bin/phar8.2
     sudo update-alternatives --set phar.phar /usr/bin/phar.phar8.2
 
-2) Instalar bibliotecas:
+Instalar bibliotecas:
 
     composer install
 
-3) Instalar uma instância
+Instalar uma instância
 
     ./vendor/bin/drush site-install standard \
         --db-url=sqlite://sites/default/files/.ht.sqlite \
@@ -18,6 +18,6 @@
         --account-pass="admin" \
         --account-mail="admin@localhost" --yes
     
-4) Sobe um server
+Sobe um server
 
     ./vendor/bin/drush  rs 0.0.0.0:8000
