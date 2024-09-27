@@ -16,9 +16,11 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "dompdf/dompdf": "^3.0",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/flexible_views": "^2.1",
         "drupal/webform": "^6.2",
         "drupal/webform_views": "^5.4",
         "drush/drush": "^13.0"
