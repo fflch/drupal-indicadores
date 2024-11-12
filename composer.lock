@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "291364b10e3c09ce7642d361e83930b3",
+    "content-hash": "5c1b88314945761365695bf1495ea3c7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -121,6 +121,70 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
             },
             "time": "2024-06-06T17:36:37+00:00"
+        },
+        {
+            "name": "commerceguys/addressing",
+            "version": "v2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/commerceguys/addressing.git",
+                "reference": "4d23e46ea32534268ea121453c93ceda2bc3ee69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/4d23e46ea32534268ea121453c93ceda2bc3ee69",
+                "reference": "4d23e46ea32534268ea121453c93ceda2bc3ee69",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "^1.6 || ^2.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "mikey179/vfsstream": "^1.6.11",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^3.7",
+                "symfony/validator": "^5.4 || ^6.3 || ^7.0"
+            },
+            "suggest": {
+                "symfony/validator": "to validate addresses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CommerceGuys\\Addressing\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bojan Zivanovic"
+                },
+                {
+                    "name": "Damien Tournoud"
+                }
+            ],
+            "description": "Addressing library powered by CLDR and Google's address data.",
+            "keywords": [
+                "address",
+                "internationalization",
+                "localization",
+                "postal"
+            ],
+            "support": {
+                "issues": "https://github.com/commerceguys/addressing/issues",
+                "source": "https://github.com/commerceguys/addressing/tree/v2.2.2"
+            },
+            "time": "2024-07-12T11:53:22+00:00"
         },
         {
             "name": "composer/installers",
@@ -1017,6 +1081,92 @@
             "time": "2023-02-01T09:20:38+00:00"
         },
         {
+            "name": "doctrine/collections",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "d8af7f248c74f195f7347424600fd9e17b57af59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/d8af7f248c74f195f7347424600fd9e17b57af59",
+                "reference": "d8af7f248c74f195f7347424600fd9e17b57af59",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/deprecations": "^1",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^12",
+                "ext-json": "*",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^10.5",
+                "vimeo/psalm": "^5.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Collections\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Collections library that adds additional functionality on top of PHP arrays.",
+            "homepage": "https://www.doctrine-project.org/projects/collections.html",
+            "keywords": [
+                "array",
+                "collections",
+                "iterators",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/collections/issues",
+                "source": "https://github.com/doctrine/collections/tree/2.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcollections",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-04-18T06:56:21+00:00"
+        },
+        {
             "name": "doctrine/deprecations",
             "version": "1.1.3",
             "source": {
@@ -1295,6 +1445,172 @@
                 "source": "https://github.com/dompdf/php-svg-lib/tree/1.0.0"
             },
             "time": "2024-04-29T13:26:35+00:00"
+        },
+        {
+            "name": "drupal/address",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/address.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/address-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "62875933847d9dcab5584de9c88712fa372cab9d"
+            },
+            "require": {
+                "commerceguys/addressing": "^2.1.1",
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "drupal/diff": "^1",
+                "drupal/feeds": "^3",
+                "drupal/token": "^1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1720108676",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "Centarro",
+                    "homepage": "https://www.drupal.org/user/3661446"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "jsacksick",
+                    "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "rszrama",
+                    "homepage": "https://www.drupal.org/user/49344"
+                }
+            ],
+            "description": "Provides functionality for storing, validating and displaying international postal addresses.",
+            "homepage": "http://drupal.org/project/address",
+            "support": {
+                "source": "https://git.drupalcode.org/project/address"
+            }
+        },
+        {
+            "name": "drupal/asset_injector",
+            "version": "2.21.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/asset_injector.git",
+                "reference": "8.x-2.21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.21.zip",
+                "reference": "8.x-2.21",
+                "shasum": "24dc111e995d6a33cb9f11f106b0d1e716e92767"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.21",
+                    "datestamp": "1723044656",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Decker",
+                    "homepage": "https://www.drupal.org/u/pookmish"
+                },
+                {
+                    "name": "Axel Rutz",
+                    "homepage": "https://www.drupal.org/u/axelrutz"
+                }
+            ],
+            "description": "Adds CSS or JS to the page output based on configurable rules.",
+            "homepage": "http://drupal.org/project/asset_injector",
+            "support": {
+                "source": "https://git.drupalcode.org/project/asset_injector",
+                "issues": "https://www.drupal.org/project/issues/asset_injector"
+            }
+        },
+        {
+            "name": "drupal/bootstrap5",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap5.git",
+                "reference": "4.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap5-4.0.3.zip",
+                "reference": "4.0.3",
+                "shasum": "3181f76d9f080396931cd5a5643ad710f7bfdad7"
+            },
+            "require": {
+                "drupal/core": "^10.1 || ^11.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.3",
+                    "datestamp": "1723049588",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Roudakov (vladimiraus)",
+                    "homepage": "https://www.drupal.org/u/vladimiraus",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "vladimiraus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "Master theme using Bootstrap 5: powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap5",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap5",
+                "issues": "https://www.drupal.org/project/issues/bootstrap5"
+            }
         },
         {
             "name": "drupal/core",
@@ -1622,6 +1938,82 @@
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
         },
         {
+            "name": "drupal/field_group",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.6.zip",
+                "reference": "8.x-3.6",
+                "shasum": "427c0a65dc1936e69e60c120776056cfe5b43e86"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/jquery_ui_accordion": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.6",
+                    "datestamp": "1722672510",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "anybody",
+                    "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "grevil",
+                    "homepage": "https://www.drupal.org/user/3668491"
+                },
+                {
+                    "name": "hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "joevagyok",
+                    "homepage": "https://www.drupal.org/user/2876343"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
+            }
+        },
+        {
             "name": "drupal/flexible_views",
             "version": "2.1.1",
             "source": {
@@ -1667,6 +2059,283 @@
             "support": {
                 "source": "https://cgit.drupalcode.org/flexible_views",
                 "issues": "https://www.drupal.org/project/issues/flexible_views"
+            }
+        },
+        {
+            "name": "drupal/geofield",
+            "version": "1.61.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/geofield.git",
+                "reference": "8.x-1.61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.61.zip",
+                "reference": "8.x-1.61",
+                "shasum": "b204f101ee536597b9c293f66f75102d6ea2d268"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11",
+                "itamair/geophp": "^1.6"
+            },
+            "require-dev": {
+                "drupal/diff": "^1.3",
+                "drupal/feeds": "^3.0@beta"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.61",
+                    "datestamp": "1725441883",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Mairo",
+                    "homepage": "https://www.drupal.org/u/itamair",
+                    "role": "Drupal 8+ Maintainer"
+                },
+                {
+                    "name": "Brandon Morrison",
+                    "homepage": "https://www.drupal.org/u/brandonian",
+                    "role": "Drupal 7 Maintainer"
+                },
+                {
+                    "name": "Pablo López",
+                    "homepage": "https://www.drupal.org/u/plopesc",
+                    "role": "Drupal 7 Maintainer"
+                }
+            ],
+            "description": "Stores geographic and location data (points, lines, and polygons).",
+            "homepage": "https://www.drupal.org/project/geofield",
+            "support": {
+                "source": "https://git.drupalcode.org/project/geofield",
+                "issues": "https://www.drupal.org/project/issues/geofield",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/geofield_map",
+            "version": "3.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/geofield_map.git",
+                "reference": "3.0.24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/geofield_map-3.0.24.zip",
+                "reference": "3.0.24",
+                "shasum": "51f719ade20fd96423c7b7bb89972057e5a7630c"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "drupal/geofield": "^1.31"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.24",
+                    "datestamp": "1728383896",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Mairo",
+                    "homepage": "https://www.drupal.org/u/itamair",
+                    "role": "Creator/Maintainer"
+                }
+            ],
+            "description": "Geofield Map is an advanced, complete and easy-to-use Geo Mapping solution for Drupal 8, based on and fully compatible with the Geofield module.",
+            "homepage": "https://www.drupal.org/project/geofield_map",
+            "support": {
+                "source": "https://git.drupalcode.org/project/geofield_map",
+                "issues": "https://www.drupal.org/project/issues/geofield_map"
+            }
+        },
+        {
+            "name": "drupal/jquery_ui",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jquery_ui.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jquery_ui-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "3f893843ec30fed18fa1b0cb326e51880b0cb686"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1717002098",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "jjeff",
+                    "homepage": "https://www.drupal.org/user/17190"
+                },
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                },
+                {
+                    "name": "litwol",
+                    "homepage": "https://www.drupal.org/user/78134"
+                },
+                {
+                    "name": "mfb",
+                    "homepage": "https://www.drupal.org/user/12302"
+                },
+                {
+                    "name": "mfer",
+                    "homepage": "https://www.drupal.org/user/25701"
+                },
+                {
+                    "name": "mikelutz",
+                    "homepage": "https://www.drupal.org/user/2972409"
+                },
+                {
+                    "name": "nod_",
+                    "homepage": "https://www.drupal.org/user/598310"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "sun",
+                    "homepage": "https://www.drupal.org/user/54136"
+                },
+                {
+                    "name": "webchick",
+                    "homepage": "https://www.drupal.org/user/24967"
+                },
+                {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
+                    "name": "zrpnr",
+                    "homepage": "https://www.drupal.org/user/1448368"
+                }
+            ],
+            "description": "Provides jQuery UI library.",
+            "homepage": "https://www.drupal.org/project/jquery_ui",
+            "support": {
+                "source": "https://git.drupalcode.org/project/jquery_ui"
+            }
+        },
+        {
+            "name": "drupal/leaflet",
+            "version": "10.2.26",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/leaflet.git",
+                "reference": "10.2.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/leaflet-10.2.26.zip",
+                "reference": "10.2.26",
+                "shasum": "826389d325634e42587d4a3ec47485ab350f881a"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10 || ^11",
+                "drupal/geofield": "^1.31"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "10.2.26",
+                    "datestamp": "1730930365",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Mairo",
+                    "homepage": "https://www.drupal.org/u/itamair",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Peter Vanhee (pvhee)",
+                    "homepage": "https://www.drupal.org/u/pvhee",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Rik de Boer (RdeBoer)",
+                    "homepage": "https://www.drupal.org/u/rdeboer",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Gabriel Carleton-Barnes (gcb)",
+                    "homepage": "https://www.drupal.org/u/gcb",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Lev Tsypin (levelos)",
+                    "homepage": "https://www.drupal.org/u/levelos",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Sean Larkin (seanberto)",
+                    "homepage": "https://www.drupal.org/u/seanberto",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Integration with the Leaflet map scripting library.",
+            "homepage": "https://www.drupal.org/project/leaflet",
+            "support": {
+                "source": "https://git.drupalcode.org/project/leaflet",
+                "issues": "https://www.drupal.org/project/issues/leaflet"
             }
         },
         {
@@ -2691,6 +3360,52 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2024-06-28T20:10:30+00:00"
+        },
+        {
+            "name": "itamair/geophp",
+            "version": "1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itamair/geoPHP.git",
+                "reference": "f210e37ab3d4706b7e8cfe3183fec2f5be8a85e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itamair/geoPHP/zipball/f210e37ab3d4706b7e8cfe3183fec2f5be8a85e6",
+                "reference": "f210e37ab3d4706b7e8cfe3183fec2f5be8a85e6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.* || 9.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "geoPHP.inc"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Italo Mairo",
+                    "homepage": "https://www.linkedin.com/in/italomairo/",
+                    "role": "Maintanier of this Library Repo"
+                },
+                {
+                    "name": "Patrick Hayes",
+                    "homepage": "https://www.linkedin.com/in/patrickdhayes/",
+                    "role": "Maintanier of original Repositary/Library (https://github.com/phayes/geoPHP)"
+                }
+            ],
+            "description": "GeoPHP is a open-source native PHP library for doing geometry operations. It is written entirely in PHP and can therefore run on shared hosts. It can read and write a wide variety of formats: WKT (including EWKT), WKB (including EWKB), GeoJSON, KML, GPX, GeoRSS). It works with all Simple-Feature geometries (Point, LineString, Polygon, GeometryCollection etc.) and can be used to get centroids, bounding-boxes, area, and a wide variety of other useful information.",
+            "homepage": "https://github.com/itamair/geoPHP",
+            "support": {
+                "source": "https://github.com/itamair/geoPHP/tree/1.6"
+            },
+            "time": "2023-12-23T23:28:59+00:00"
         },
         {
             "name": "laravel/prompts",
