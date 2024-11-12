@@ -17,10 +17,18 @@
     "require": {
         "composer/installers": "^2.0",
         "dompdf/dompdf": "^3.0",
+        "drupal/address": "^2.0",
+        "drupal/asset_injector": "^2.21",
+        "drupal/bootstrap5": "^4.0",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/field_group": "^3.6",
         "drupal/flexible_views": "^2.1",
+        "drupal/geofield": "^1.61",
+        "drupal/geofield_map": "^3.0",
+        "drupal/jquery_ui": "^1.7",
+        "drupal/leaflet": "^10.2",
         "drupal/webform": "^6.2",
         "drupal/webform_views": "^5.4",
         "drush/drush": "^13.0"
