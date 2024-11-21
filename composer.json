@@ -31,6 +31,7 @@
         "drupal/jquery_ui_draggable": "^2.1",
         "drupal/jquery_ui_resizable": "^2.1",
         "drupal/leaflet": "^10.2",
+        "drupal/smtp": "^1.4",
         "drupal/webform": "^6.2",
         "drupal/webform_views": "^5.4",
         "drush/drush": "^13.0"
