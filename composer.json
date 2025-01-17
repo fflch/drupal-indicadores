@@ -16,8 +16,8 @@
     ],
     "require": {
         "composer/installers": "^2.0",
-        "dompdf/dompdf": "3.0.0",
-        "drupal/address": "2.0.2",
+        "dompdf/dompdf": "3.1.0",
+        "drupal/address": "2.0.3",
         "drupal/asset_injector": "2.21.0",
         "drupal/bootstrap5": "4.0.3",
         "drupal/core-composer-scaffold": "10.3.2",
@@ -25,18 +25,18 @@
         "drupal/core-recommended": "10.3.2",
         "drupal/field_group": "3.6.0",
         "drupal/flexible_views": "2.1.1",
-        "drupal/geofield": "1.61.0",
+        "drupal/geofield": "1.64.0",
         "drupal/geofield_map": "3.0.24",
         "drupal/jquery_ui": "1.7.0",
         "drupal/jquery_ui_draggable": "2.1.0",
         "drupal/jquery_ui_resizable": "2.1.0",
-        "drupal/leaflet": "10.2.26",
+        "drupal/leaflet": "10.2.35",
         "drupal/recaptcha": "3.4.0",
         "drupal/smtp": "1.4.0",
-        "drupal/webform": "6.2.7",
-        "drupal/webform_views": "5.4.0",
+        "drupal/webform": "6.2.9",
+        "drupal/webform_views": "5.5.0",
         "drupal/webformnavigation": "2.0.1",
-        "drush/drush": "13.0.1"
+        "drush/drush": "13.3.3"
     },
     "conflict": {
         "drupal/drupal": "*"
