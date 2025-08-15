@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae86fd13b5db06e9f6407bd71ebe453e",
+    "content-hash": "3463d6904b06baab5f2293f5d6c77294",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2543,6 +2543,54 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/leaflet",
                 "issues": "https://www.drupal.org/project/issues/leaflet"
+            }
+        },
+        {
+            "name": "drupal/mask",
+            "version": "2.1.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mask.git",
+                "reference": "2.1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mask-2.1.0-rc1.zip",
+                "reference": "2.1.0-rc1",
+                "shasum": "20df9d83043c518eb7fcd28339248b967f00022e"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0-rc1",
+                    "datestamp": "1733477754",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dbiscalchin",
+                    "homepage": "https://www.drupal.org/user/3081151"
+                },
+                {
+                    "name": "tim-diels",
+                    "homepage": "https://www.drupal.org/user/2915097"
+                }
+            ],
+            "description": "Provides Form API attributes and Field widget settings to mask text fields.",
+            "homepage": "https://www.drupal.org/project/mask",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mask"
             }
         },
         {
@@ -8045,10 +8093,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/mask": 5
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
