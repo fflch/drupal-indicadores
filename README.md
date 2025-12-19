@@ -10,13 +10,7 @@ Instalar bibliotecas:
 
 Instalar uma instância
 
-    ./vendor/bin/drush site-install standard \
-        --db-url=sqlite://sites/default/files/.ht.sqlite \
-        --site-name="admin" \
-        --site-mail="admin@localhost" \
-        --account-name="admin" \
-        --account-pass="admin" \
-        --account-mail="admin@localhost" --yes
+    ./vendor/bin/drush site-install
     
 Sobe um server
 
